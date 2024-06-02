@@ -9,9 +9,9 @@ const Hotel = ({ rooms, hotelInfo }) => {
             <table>
                 <thead>
                     <tr>
-                        <th>Room ID</th>
-                        <th>Room Type</th>
-                        <th>Room Price</th>
+                        <th>Room #</th>
+                        <th>Type</th>
+                        <th>Price</th>
                     </tr>
                 </thead>
                 <tbody>
