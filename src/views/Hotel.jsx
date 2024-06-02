@@ -1,3 +1,5 @@
+// This is a component which receives rooms and hotelInfo props and returns JSX that displays the hotel name and a table of rooms. Each row in the table displays the room number, type, price, and a BookButton component that allows the user to book the room. The BookButton component receives the room and hotel name as props and displays a button that alerts the user that they have booked a room at the hotel.
+
 import React from "react";
 import BookButton from "../components/BookButton";
 

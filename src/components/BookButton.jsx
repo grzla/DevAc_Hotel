@@ -1,5 +1,8 @@
+// This is a component that receives room and hotelName props and returns JSX to display a button that allows the user to book a room.
+
 import React from "react";
 
+// passing room and hotelname props to the BookButton component
 const BookButton = ({ room, hotelName }) => {
  
     const bookRoom = () => {  
