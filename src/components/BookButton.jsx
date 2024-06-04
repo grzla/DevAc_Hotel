@@ -3,10 +3,10 @@
 import React from "react";
 
 // passing room and hotelname props to the BookButton component
-const BookButton = ({ room, hotelName }) => {
+const BookButton = ({ room, hotelName, days}) => {
  
     const bookRoom = () => {  
-        alert(`You have booked a ${room.type} at ${hotelName} for $${room.price}.`)
+        alert(`You have booked a ${room.type} at ${hotelName} for $${room.price * days}.`)
     };
 
     return (
